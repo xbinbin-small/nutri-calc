@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "vibrio-parahaemolyticus",
+    "date": "2026-06-25",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "警惕餐桌上的海鲜“杀手”：副溶血细菌中毒的原因与预防",
+    "title_en": "The Seafood \"Killer\" on Your Table: Vibrio parahaemolyticus Poisoning",
+    "summary_zh": "副溶血性弧菌是海产品里常见的嗜盐致病菌，也是细菌性食物中毒的常见原因。讲清它怎么让人中招、有哪些症状，以及彻底加热、生熟分开等关键预防措施。",
+    "summary_en": "Vibrio parahaemolyticus is a salt-loving pathogen common in seafood and a frequent cause of bacterial food poisoning. How it infects, its symptoms, and key prevention: thorough heating and separating raw from cooked."
+  },
+  {
+    "slug": "cooking-oil-hidden-fat",
+    "date": "2026-06-23",
+    "tags": [
+      "diet",
+      "fat"
+    ],
+    "title_zh": "做菜用油怎么控制：少油不等于不吃油",
+    "title_en": "Controlling Cooking Oil: Less Oil Doesn't Mean No Oil",
+    "summary_zh": "脂肪不是敌人，但隐藏油脂和高油烹调容易让能量超标。学会量油和换做法更实际。",
+    "summary_en": "What fat does for you, and the hidden oils most people overlook."
+  },
+  {
+    "slug": "preconception-folic-acid",
+    "date": "2026-06-23",
+    "tags": [
+      "population",
+      "pregnancy"
+    ],
+    "title_zh": "准备怀孕，叶酸从什么时候开始补",
+    "title_en": "Planning Pregnancy: When to Start Folic Acid",
+    "summary_zh": "叶酸补充的重点在孕前开始和规律服用，但补充叶酸不能替代孕前检查和均衡饮食。",
+    "summary_en": "When to start preconception supplementation, and why it doesn't replace prenatal care."
+  },
+  {
+    "slug": "leftovers-refrigeration-safety",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "剩菜放进冰箱，第二天还能吃吗",
+    "title_en": "Leftovers in the Fridge: Still Safe the Next Day?",
+    "summary_zh": "冰箱只能延缓细菌生长，不是保险箱。剩菜安全的关键是尽快冷藏、避免反复加热和彻底复热。",
+    "summary_en": "The fridge isn't a safe box — time and thorough reheating are what matter."
+  },
+  {
+    "slug": "sprouted-potato-safety",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "发芽土豆还能吃吗：别只把芽削掉",
+    "title_en": "Can You Still Eat Sprouted Potatoes? Don't Just Cut the Sprout",
+    "summary_zh": "发芽、发绿或发苦的土豆可能含有更多天然毒素。严重变质时，单纯削芽并不可靠。",
+    "summary_en": "Green, bitter or heavily sprouted potatoes should be discarded, not patched up."
+  },
+  {
+    "slug": "fish-histamine-scombroid",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "吃鱼后脸红心慌，可能不是海鲜过敏",
+    "title_en": "Flushing After Eating Fish May Not Be a Seafood Allergy",
+    "summary_zh": "部分鱼类保存不当可形成较多组胺，表现得像“过敏”。烹熟并不能替代全程冷链和新鲜采购。",
+    "summary_en": "Histamine-like reactions and why the cold chain matters."
+  },
+  {
+    "slug": "green-beans-thorough-cooking",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "四季豆为什么一定要彻底煮熟",
+    "title_en": "Why Green Beans Must Be Fully Cooked",
+    "summary_zh": "四季豆夹生并不只是口感差。彻底加热是避免胃肠道不适和食物中毒风险的关键。",
+    "summary_en": "Undercooked green beans aren't just a texture issue — thorough heating prevents poisoning."
+  },
+  {
+    "slug": "infant-vitamin-d",
+    "date": "2026-06-23",
+    "tags": [
+      "population",
+      "vitamin-d"
+    ],
+    "title_zh": "婴儿维生素D要不要补：家长先知道这两点",
+    "title_en": "Does My Baby Need Vitamin D? Two Things Parents Should Know",
+    "summary_zh": "婴儿维生素D补充关系到骨骼健康，但具体方案仍要结合月龄、喂养方式和医生建议。",
+    "summary_en": "Routine supplementation and individualized follow-up for infants."
+  },
+  {
+    "slug": "child-picky-eating-zinc",
+    "date": "2026-06-23",
+    "tags": [
+      "population",
+      "child"
+    ],
+    "title_zh": "孩子挑食就是缺锌吗：别急着买补剂",
+    "title_en": "Is Picky Eating a Sign of Zinc Deficiency?",
+    "summary_zh": "挑食、食欲差不等于一定缺锌。儿童营养评估要同时看生长曲线、饮食结构和是否有明确缺乏证据。",
+    "summary_en": "Symptoms don't equal zinc deficiency — assess diet and growth first."
+  },
+  {
+    "slug": "weight-loss-skipping-dinner",
+    "date": "2026-06-23",
+    "tags": [
+      "weight-loss",
+      "diet"
+    ],
+    "title_zh": "想减重，为什么不建议长期不吃晚饭",
+    "title_en": "Why Skipping Dinner Long-Term Isn't Good for Weight Loss",
+    "summary_zh": "不吃晚饭可能让体重短期下降，却不一定能形成稳定的减重习惯。关键是控制总能量和保证营养质量。",
+    "summary_en": "Weight loss is about controlling total energy, not crudely cutting a meal."
+  },
+  {
+    "slug": "raw-seafood-parasite-safety",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "生腌、刺身和寄生虫：调料不能代替加热",
+    "title_en": "Raw-Marinated Seafood, Sashimi and Parasites",
+    "summary_zh": "酒、醋、芥末和辣椒不能可靠杀灭食源性寄生虫。降低风险的关键仍是正规来源、避免交叉污染和充分加热。",
+    "summary_en": "Seasonings can't replace heat: raw-food risks and preventing cross-contamination."
+  },
+  {
+    "slug": "starchy-vegetables-as-staples",
+    "date": "2026-06-23",
+    "tags": [
+      "diet",
+      "practical"
+    ],
+    "title_zh": "红薯、玉米和土豆，到底算菜还是主食",
+    "title_en": "Sweet Potato, Corn, Potato: Vegetable or Staple?",
+    "summary_zh": "红薯、玉米和土豆并不是普通蔬菜。学会把它们当作部分主食替换，控重和控糖会更容易。",
+    "summary_en": "How to treat starchy vegetables and swap them in for staple foods."
+  },
+  {
+    "slug": "iron-food-pairing",
+    "date": "2026-06-23",
+    "tags": [
+      "nutrient",
+      "iron"
+    ],
+    "title_zh": "缺铁别只喝红糖水：补铁先抓住两件事",
+    "title_en": "Iron Deficiency: Brown Sugar Water Isn't the Answer",
+    "summary_zh": "红糖水不能替代规范补铁。缺铁饮食调理要看铁的来源，也要看促进和干扰吸收的搭配。",
+    "summary_en": "The two things that matter most for iron: heme-iron sources and absorption-boosting pairings."
+  },
+  {
+    "slug": "older-adult-protein",
+    "date": "2026-06-23",
+    "tags": [
+      "population",
+      "protein"
+    ],
+    "title_zh": "老年人吃蛋白质，重点不只是吃肉",
+    "title_en": "Protein for Older Adults: It's Not Only About Meat",
+    "summary_zh": "老年人蛋白质摄入的重点是食物多样、分散到三餐，并结合牙口、食欲和肾功能做调整。",
+    "summary_en": "Spreading protein across meals and accounting for kidney function."
+  },
+  {
+    "slug": "calcium-cramps-bone-health",
+    "date": "2026-06-23",
+    "tags": [
+      "nutrient",
+      "calcium"
+    ],
+    "title_zh": "腿抽筋就是缺钙吗：补钙别只盯着钙片",
+    "title_en": "Are Leg Cramps Always Calcium Deficiency?",
+    "summary_zh": "腿抽筋并不等于缺钙。骨健康更需要看饮食、维生素D、活动和是否存在需要就医的原因。",
+    "summary_en": "Symptoms aren't a diagnosis; food and vitamin D matter as much as calcium pills."
+  },
+  {
+    "slug": "dietary-fiber-food-sources",
+    "date": "2026-06-23",
+    "tags": [
+      "nutrient",
+      "fiber"
+    ],
+    "title_zh": "膳食纤维怎么吃：不是只多吃一盘菜",
+    "title_en": "How to Eat More Fiber: Not Just One Extra Plate of Veg",
+    "summary_zh": "膳食纤维不只来自蔬菜。全谷物、杂豆、蔬果和坚果共同构成更稳定的日常来源。",
+    "summary_en": "Whole grains, beans, vegetables and fruit together make up your fiber intake."
+  },
+  {
+    "slug": "wild-mushroom-poisoning-prevention",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "野生蘑菇能不能吃：民间识别法靠不住",
+    "title_en": "Are Wild Mushrooms Safe? Folk ID Methods Don't Work",
+    "summary_zh": "颜色、虫咬、银器变黑都不能可靠判断毒蘑菇。预防中毒最有效的方法是不采不食不明野生菌。",
+    "summary_en": "Don't pick or eat unknown wild mushrooms — and what to do if poisoning is suspected."
+  },
+  {
+    "slug": "food-additives-safety-labels",
+    "date": "2026-06-23",
+    "tags": [
+      "food-safety"
+    ],
+    "title_zh": "食品添加剂可怕吗：先看合法使用，再看整体饮食",
+    "title_en": "Are Food Additives Scary? Legality First, Then Your Whole Diet",
+    "summary_zh": "食品添加剂并不等于有害。判断食品是否值得常吃，还要看配料、营养成分和整体饮食频率。",
+    "summary_en": "Additive safety and a food's nutritional value are two different questions."
+  },
+  {
+    "slug": "dyslipidemia-eggs-diet",
+    "date": "2026-06-23",
+    "tags": [
+      "disease-diet",
+      "lipids"
+    ],
+    "title_zh": "高血脂后，鸡蛋还能吃吗：别只盯着蛋黄",
+    "title_en": "After High Cholesterol, Can You Still Eat Eggs?",
+    "summary_zh": "高血脂后不是简单地把鸡蛋拉进黑名单。本文讲清鸡蛋、饱和脂肪和整体饮食结构之间的关系。",
+    "summary_en": "High cholesterol isn't about blacklisting one food — how eggs, saturated fat and your overall diet structure actually relate."
+  },
+  {
+    "slug": "balanced-three-meals",
+    "date": "2026-06-19",
+    "tags": [
+      "nutrition",
+      "diet",
+      "practical"
+    ],
+    "title_zh": "普通人一日三餐怎么吃才算营养均衡：别只盯热量，更要看结构",
+    "title_en": "Balanced Daily Meals: Look at Structure, Not Just Calories",
+    "summary_zh": "营养均衡不是吃得越清淡越好，也不是每天精确计算营养素。本文从食物多样、三大营养素、蔬菜水果、优质蛋白、烹调方式和进餐节律几个角度，讲清楚普通人如何安排一日三餐。",
+    "summary_en": "Balanced eating isn't about eating blandly or counting every nutrient. Food variety, the three macros, vegetables and fruit, quality protein, cooking methods, and meal rhythm — how an ordinary person can structure three meals a day."
+  },
+  {
+    "slug": "diabetes-staple-food",
+    "date": "2026-06-16",
+    "tags": [
+      "diabetes",
+      "nutrition",
+      "practical"
+    ],
+    "title_zh": "糖尿病人主食怎么吃：不是不吃饭，而是吃对碳水",
+    "title_en": "Staple Foods for Diabetes: Eat the Right Carbs, Not Less Rice",
+    "summary_zh": "糖尿病人主食不是越少越好。本文从主食定量、低GI、全谷物杂豆、进餐顺序和血糖监测5个角度，讲清楚日常控糖怎么吃主食。",
+    "summary_en": "Diabetics shouldn't simply eat less staple food. Five angles — portioning, low-GI choices, whole grains and legumes, meal order, and glucose monitoring — for managing carbs day to day."
+  },
+  {
+    "slug": "glim-intro",
+    "date": "2026-06-01",
+    "tags": [
+      "clinical",
+      "malnutrition"
+    ],
+    "title_zh": "GLIM 营养不良诊断介绍",
+    "title_en": "Introduction to GLIM Malnutrition Diagnosis",
+    "summary_zh": "全球营养不良领导倡议（GLIM）共识简介——表型、病因、严重度分级与临床干预启动时机。",
+    "summary_en": "An overview of the GLIM consensus: phenotypic and etiologic criteria, severity grading, and when to start intervention."
+  },
+  {
+    "slug": "fsmp-guide",
+    "date": "2026-05-25",
+    "tags": [
+      "fsmp",
+      "clinical",
+      "practical"
+    ],
+    "title_zh": "特殊医学用途配方食品（FSMP）：是什么、怎么选",
+    "title_en": "FSMP: What It Is and How to Choose",
+    "summary_zh": "FSMP 的定义、三大分类、不同疾病对应的配方差异，以及临床选用的简单决策框架。",
+    "summary_en": "What FSMP is, the three categories, disease-specific formula differences, and a simple selection framework."
+  }
+]

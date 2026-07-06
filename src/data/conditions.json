@@ -1,0 +1,16 @@
+[
+  { "id": "general",       "name_zh": "通用 / 营养补充",      "name_en": "General / Supplemental",      "icon": "🍱" },
+  { "id": "malnutrition",  "name_zh": "营养不良",            "name_en": "Malnutrition",                "icon": "🥄" },
+  { "id": "elderly",       "name_zh": "老年人 / 衰弱",        "name_en": "Elderly / Frailty",           "icon": "👴" },
+  { "id": "diabetes",      "name_zh": "糖尿病",              "name_en": "Diabetes",                    "icon": "🩸" },
+  { "id": "renal",         "name_zh": "肾脏病",              "name_en": "Renal Disease",               "icon": "🫘" },
+  { "id": "hepatic",       "name_zh": "肝脏病",              "name_en": "Hepatic Disease",             "icon": "🫀" },
+  { "id": "oncology",      "name_zh": "肿瘤 / 恶病质",        "name_en": "Oncology / Cachexia",         "icon": "🎗️" },
+  { "id": "surgery",       "name_zh": "围手术期",            "name_en": "Peri-operative",              "icon": "🩺" },
+  { "id": "trauma",        "name_zh": "创伤 / 烧伤",          "name_en": "Trauma / Burns",              "icon": "⚕️" },
+  { "id": "icu",           "name_zh": "重症 / 感染",          "name_en": "ICU / Sepsis",                "icon": "🏥" },
+  { "id": "pulmonary",     "name_zh": "肺病 (COPD)",         "name_en": "Pulmonary (COPD)",            "icon": "🫁" },
+  { "id": "pediatric",     "name_zh": "儿科营养",            "name_en": "Pediatric",                   "icon": "🧒" },
+  { "id": "pku",           "name_zh": "苯丙酮尿症 (PKU)",     "name_en": "Phenylketonuria (PKU)",       "icon": "🧬" },
+  { "id": "dysphagia",     "name_zh": "吞咽困难",            "name_en": "Dysphagia",                   "icon": "🥣" }
+]

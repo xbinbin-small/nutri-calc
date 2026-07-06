@@ -1,0 +1,25 @@
+# Cloudflare Pages 项目配置（用于 wrangler CLI 部署）
+# Used by: npx wrangler pages deploy dist --project-name nutri-calc
+name = "nutri-calc"
+compatibility_date = "2025-09-01"
+pages_build_output_dir = "dist"
+
+# 非敏感的默认环境变量
+# 真正的密钥（DEEPSEEK_API_KEY / MINIMAX_API_KEY / GLM_API_KEY / ADMIN_TOKEN / TURNSTILE_SECRET）请用 secret 命令注入：
+#   npx wrangler pages secret put DEEPSEEK_API_KEY --project-name nutri-calc
+#   npx wrangler pages secret put TURNSTILE_SECRET --project-name nutri-calc
+[vars]
+DEFAULT_PROVIDER  = "deepseek"
+DEEPSEEK_MODEL    = "deepseek-v4-flash"
+DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
+MINIMAX_MODEL     = "MiniMax-M3"
+MINIMAX_ENDPOINT  = "https://api.minimax.chat/v1/text/chatcompletion_v2"
+GLM_MODEL         = "glm-4.5"
+GLM_ENDPOINT      = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+RATE_LIMIT_PER_DAY = "20"   # 每 IP 每天 AI 调用上限（需绑定 RATE_LIMIT_KV 才生效）
+
+# 限流用 KV：先创建命名空间再填入 id，或在 Dashboard → Pages → Settings → Functions → KV bindings 绑定。
+#   npx wrangler kv namespace create RATE_LIMIT_KV
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT_KV"
+# id = "<在此填入创建后返回的 namespace id>"

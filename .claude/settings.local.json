@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx wrangler *)",
+      "WebFetch(domain:api-docs.deepseek.com)",
+      "Bash(node *)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/locales/zh-CN.json'\\)\\);print\\(list\\(d.keys\\(\\)\\)\\);print\\('--- cookie ---'\\);print\\(json.dumps\\(d.get\\('cookie'\\),ensure_ascii=False,indent=1\\)\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/locales/zh-CN.json'\\)\\);print\\(json.dumps\\(d['privacy'],ensure_ascii=False,indent=1\\)\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/locales/en-US.json'\\)\\);print\\(json.dumps\\(d.get\\('cookie'\\),ensure_ascii=False,indent=1\\)\\);print\\(json.dumps\\(d.get\\('privacy'\\),ensure_ascii=False,indent=1\\)\\)\")",
+      "Bash(python3 *)",
+      "Bash(curl -s https://nutri.125261.xyz/articles/infant-vitamin-d)",
+      "Bash(curl -s https://nutri.125261.xyz/)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

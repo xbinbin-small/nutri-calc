@@ -1,0 +1,24 @@
+{
+  "name": "nutri-calc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Nutrition Calculator with Special Medical Food (FSMP) library — bilingual (zh-CN / en-US)",
+  "scripts": {
+    "dev": "vite",
+    "gen:sitemap": "node scripts/gen-sitemap.mjs",
+    "prebuild": "node scripts/gen-sitemap.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7",
+    "wrangler": "^4.94.0"
+  }
+}

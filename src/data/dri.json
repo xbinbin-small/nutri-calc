@@ -1,0 +1,26 @@
+{
+  "amdr": {
+    "protein_pct":      { "min": 10, "max": 20 },
+    "fat_pct":          { "min": 20, "max": 30 },
+    "carbs_pct":        { "min": 50, "max": 65 }
+  },
+  "activity_factor": {
+    "sedentary":  { "value": 1.2,  "name_zh": "久坐", "name_en": "Sedentary" },
+    "light":      { "value": 1.375,"name_zh": "轻度活动", "name_en": "Light activity" },
+    "moderate":   { "value": 1.55, "name_zh": "中度活动", "name_en": "Moderate activity" },
+    "active":     { "value": 1.725,"name_zh": "高度活动", "name_en": "Very active" },
+    "very_active":{ "value": 1.9,  "name_zh": "极高强度", "name_en": "Extra active" }
+  },
+  "micronutrients_adult": [
+    { "key": "fiber",       "name_zh": "膳食纤维",  "name_en": "Dietary Fiber",     "unit": "g",   "rda_male": 25,   "rda_female": 25   },
+    { "key": "sodium",      "name_zh": "钠",       "name_en": "Sodium",            "unit": "mg",  "rda_male": 1500, "rda_female": 1500, "ul": 2000 },
+    { "key": "potassium",   "name_zh": "钾",       "name_en": "Potassium",         "unit": "mg",  "rda_male": 2000, "rda_female": 2000 },
+    { "key": "calcium",     "name_zh": "钙",       "name_en": "Calcium",           "unit": "mg",  "rda_male": 800,  "rda_female": 800  },
+    { "key": "iron",        "name_zh": "铁",       "name_en": "Iron",              "unit": "mg",  "rda_male": 12,   "rda_female": 20   },
+    { "key": "zinc",        "name_zh": "锌",       "name_en": "Zinc",              "unit": "mg",  "rda_male": 12.5, "rda_female": 7.5  },
+    { "key": "vitamin_c",   "name_zh": "维生素 C",  "name_en": "Vitamin C",         "unit": "mg",  "rda_male": 100,  "rda_female": 100  },
+    { "key": "vitamin_a",   "name_zh": "维生素 A",  "name_en": "Vitamin A",         "unit": "µg RAE", "rda_male": 800, "rda_female": 700 },
+    { "key": "vitamin_d",   "name_zh": "维生素 D",  "name_en": "Vitamin D",         "unit": "µg",   "rda_male": 10,   "rda_female": 10   },
+    { "key": "vitamin_b12", "name_zh": "维生素 B12","name_en": "Vitamin B12",       "unit": "µg",   "rda_male": 2.4,  "rda_female": 2.4  }
+  ]
+}

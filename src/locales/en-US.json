@@ -1,0 +1,682 @@
+{
+  "app": {
+    "title": "NutriCalc · Nutrition Calculator",
+    "tagline": "Smart nutrition calc · FSMP library · Bilingual",
+    "footer": "© {year} NutriCalc · For reference only — not a substitute for medical advice"
+  },
+  "nav": {
+    "calculator": "Calculator",
+    "assessment": "Assessment",
+    "daily_needs": "Daily Needs",
+    "fsmp": "FSMP Library",
+    "articles": "Tips",
+    "about": "About"
+  },
+  "lang": {
+    "switch": "中",
+    "current": "EN"
+  },
+  "common": {
+    "search": "Search…",
+    "add": "Add",
+    "remove": "Remove",
+    "clear": "Clear",
+    "save": "Save",
+    "amount": "Amount",
+    "calculate": "Calculate",
+    "total": "Total",
+    "category": "Category",
+    "all": "All",
+    "result": "Result",
+    "no_data": "No data",
+    "details": "Details",
+    "view": "View",
+    "close": "Close",
+    "see_also": "See also",
+    "per_100g": "Per 100 g/mL",
+    "per_serving": "Per serving",
+    "indications": "Indications",
+    "contraindications": "Contraindications",
+    "features": "Features",
+    "notes": "Notes",
+    "brand": "Brand",
+    "form": "Form",
+    "package": "Package",
+    "serving": "Serving size",
+    "category_complete": "Complete formula",
+    "category_specific": "Disease-specific formula",
+    "category_non_complete": "Non-complete formula",
+    "form_powder": "Powder",
+    "form_liquid": "Liquid",
+    "form_semi_solid": "Semi-solid"
+  },
+  "calculator": {
+    "title": "Nutrition Calculator",
+    "subtitle": "Pick foods or medical foods, set amounts, and get an instant nutrient summary",
+    "tab_food": "Regular Food",
+    "tab_fsmp": "Medical Food (FSMP)",
+    "selected": "Selected items",
+    "empty": "Nothing selected yet",
+    "placeholder_amount": "Amount",
+    "btn_clear": "Clear list",
+    "summary_title": "Nutrition Summary",
+    "energy_ratio": "Energy ratio",
+    "amdr_hint": "Recommended ratio — Protein {p}%, Fat {f}%, Carbs {c}%",
+    "out_of_range": "Out of range",
+    "in_range": "In range",
+    "advice_title": "Health hints",
+    "advice_high_sodium": "Sodium intake is high — reduce salty foods",
+    "advice_low_fiber": "Fiber intake is low — add more veggies & whole grains",
+    "advice_high_sugar": "Sugar intake is high — watch sweets & sugary drinks",
+    "advice_balanced": "Your meal looks balanced — keep it up",
+    "about": {
+      "title": "About this nutrition calculator",
+      "intro": [
+        "This is a free online nutrition calculator: pick from common foods and Foods for Special Medical Purposes (FSMP), enter the amounts, and the tool automatically sums the energy, protein, fat and carbohydrate of a meal or a day, comparing them against Dietary Reference Intakes (DRI).",
+        "It suits ordinary people who want to know how much they've eaten and whether their nutrition is balanced, as well as nutrition students and frontline workers who need quick estimates. No sign-up; data stays in your own browser."
+      ],
+      "basis_title": "Data and methodology",
+      "basis": [
+        "Regular foods use common per-100g reference values for estimation, not a specific product's label.",
+        "Reference intakes come from public standards such as the Chinese Dietary Reference Intakes (DRIs).",
+        "FSMP data is compiled from manufacturer labels, instructions and public registration records, with a source noted for each entry."
+      ],
+      "use_title": "How to use it",
+      "use": [
+        "Search and select the food or medical food you ate.",
+        "Enter the actual amount (grams / servings).",
+        "View the auto-summed energy and macronutrients below, and the comparison with DRI.",
+        "Use the result as a reference for adjusting your everyday diet."
+      ],
+      "faq_title": "FAQ",
+      "faq": [
+        {
+          "q": "Are the results accurate?",
+          "a": "Results are estimates based on common reference values, useful for a rough picture. The same food varies by variety, origin and cooking, so treat the numbers as a reference."
+        },
+        {
+          "q": "Can it be a basis for medical or prescription decisions?",
+          "a": "No. This tool is for nutrition education and self-understanding, not medical advice. For illness or special needs, follow your doctor or a registered dietitian."
+        },
+        {
+          "q": "Where does the medical-food data come from?",
+          "a": "From manufacturers' public labels, instructions and registration records; verify the latest product information before clinical use."
+        }
+      ],
+      "note": "This tool is for nutritional education and reference only and does not constitute medical advice."
+    }
+  },
+  "daily": {
+    "title": "Daily Needs",
+    "subtitle": "Estimates BMR / TDEE via the Mifflin-St Jeor formula and compares against Chinese DRI 2023 recommendations",
+    "sex": "Sex",
+    "male": "Male",
+    "female": "Female",
+    "age": "Age (years)",
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "activity": "Activity level",
+    "goal": "Goal",
+    "goal_maintain": "Maintain weight",
+    "goal_loss": "Fat loss (-15%)",
+    "goal_gain": "Muscle gain (+10%)",
+    "bmr": "Basal Metabolic Rate (BMR)",
+    "tdee": "Total Daily Energy Expenditure",
+    "target_calories": "Recommended intake",
+    "macros_title": "Macronutrient targets",
+    "micros_title": "Key micronutrient targets",
+    "unit_kcal": "kcal",
+    "calc": "Calculate my needs",
+    "about": {
+      "title": "About the daily nutrient needs estimate",
+      "intro": [
+        "This tool estimates your basal metabolic rate (BMR) and total daily energy expenditure (TDEE) from your sex, age, weight, height and activity level, then combines them with a goal of losing, maintaining or gaining weight to give a daily energy target, a macronutrient split, and reference values for key micronutrients.",
+        "It turns the question of how much energy and nutrition you need in a day into concrete numbers, useful when planning your everyday diet."
+      ],
+      "basis_title": "Method and basis",
+      "basis": [
+        "BMR uses the Mifflin-St Jeor equation, one of the more commonly used and robust estimating equations.",
+        "TDEE multiplies BMR by an activity factor (from sedentary to high intensity).",
+        "Macros are split around the midpoint of the Acceptable Macronutrient Distribution Range (AMDR); micronutrients reference DRI recommended intakes."
+      ],
+      "use_title": "How to use it",
+      "use": [
+        "Choose your sex and enter age, weight and height.",
+        "Select your everyday activity level.",
+        "Choose a goal: maintain, lose or gain weight.",
+        "View BMR, TDEE, the daily energy target, and reference values for protein, fat, carbs and micronutrients."
+      ],
+      "faq_title": "FAQ",
+      "faq": [
+        {
+          "q": "What's the difference between BMR and TDEE?",
+          "a": "BMR is the energy your body needs at complete rest to sustain basic functions; TDEE adds daily activity and exercise on top, and is closer to what you actually need each day."
+        },
+        {
+          "q": "Are the estimates accurate?",
+          "a": "Equation estimates are a good starting point for most healthy adults, but individual differences, illness and special life stages affect real needs — adjust based on weight changes and how you feel."
+        },
+        {
+          "q": "Can I use it directly to lose weight?",
+          "a": "As a reference, yes; weight loss needs a gentle, sustained reduction in total energy while keeping nutrition balanced. Those with underlying disease or on medication should follow medical advice."
+        }
+      ],
+      "note": "Estimates are for reference only and cannot replace individualized assessment by a doctor or registered dietitian."
+    }
+  },
+  "fsmp": {
+    "title": "Medical Food Library (FSMP)",
+    "subtitle": "Browse FSMP, enteral nutrition, and medical nutrition supplement products by disease and category. Entries are transcribed from public labels or manufacturer instructions.",
+    "all_conditions": "All indications",
+    "search_placeholder": "Search brand / name…",
+    "indication_filter": "Filter by indication",
+    "category_filter": "Filter by category",
+    "show_count": "{n} results",
+    "view_detail": "Details",
+    "add_to_calc": "Add to calculator",
+    "dose_title": "Dose & daily intake estimate",
+    "dose_amount": "Amount",
+    "dose_per_day": "servings/day",
+    "dose_result": "Estimated daily delivery: {kcal} kcal · {p} g protein",
+    "sample_notice": "⚠️ Product data comes from public labels or manufacturer instructions and may change by market or batch. Verify the current package, registration status, and clinician order before clinical use.",
+    "product_info": "Product info",
+    "market": "Market",
+    "regulatory": "Regulatory category",
+    "registration_no": "Registration / approval no.",
+    "nutrition_basis": "Nutrition data basis",
+    "source_title": "Data source",
+    "label_revision": "Label revision",
+    "accessed_at": "Accessed",
+    "about": {
+      "title": "About the FSMP library",
+      "intro": [
+        "Foods for Special Medical Purposes (FSMP) are formula foods designed for the nutritional needs of specific diseases or medical conditions. This library lets you browse different categories of FSMP by disease, understanding roughly which situations they suit, their formula features and nutritional basis.",
+        "The information is compiled from public labels and manufacturer instructions and presented by category (not as brand recommendations), to help professionals and caregivers get oriented quickly."
+      ],
+      "basis_title": "Data and methodology",
+      "basis": [
+        "Each entry notes its source, registration number, regulatory category and market.",
+        "Indications map to disease categories (diabetes, renal, oncology, hepatic, peri-operative, pediatric, etc.).",
+        "Information comes from manufacturer labels, instructions and public registration records — for orientation only, not a substitute for the latest product information."
+      ],
+      "use_title": "How to use it",
+      "use": [
+        "Choose the disease or medical-condition category you're interested in.",
+        "Browse the formula categories and features under it.",
+        "View the nutritional basis, source and other information.",
+        "When needed, add an item to the calculator to estimate nutrient intake."
+      ],
+      "faq_title": "FAQ",
+      "faq": [
+        {
+          "q": "What is an FSMP?",
+          "a": "It's a formula food designed for the nutritional needs of a specific disease or medical condition, usually to be used under the guidance of a doctor or clinical dietitian."
+        },
+        {
+          "q": "Can I buy and use these based on the library alone?",
+          "a": "Not advised. Whether to use one, which category, and how much should be decided by a doctor or registered/clinical dietitian based on the specific condition."
+        },
+        {
+          "q": "Is the data reliable?",
+          "a": "It's compiled from public labels and manufacturer instructions with sources noted; but products change, so verify the latest information before clinical use."
+        }
+      ],
+      "note": "This library presents information by category; it is not a product recommendation or medical advice. Verify and follow medical advice before clinical use."
+    }
+  },
+  "fsmp_market": {
+    "CN": "Mainland China",
+    "US": "United States",
+    "UK": "United Kingdom"
+  },
+  "fsmp_regulatory": {
+    "cn_enteral_drug": "Enteral nutrition drug (CN drug license)",
+    "nutrition_supplement": "Nutrition supplement",
+    "medical_nutrition_supplement": "Medical nutrition supplement",
+    "pediatric_nutrition_supplement": "Pediatric nutrition supplement",
+    "eu_uk_fsmp": "EU / UK FSMP"
+  },
+  "fsmp_basis": {
+    "manufacturer_instructions": "Manufacturer instructions",
+    "manufacturer_label": "Package label",
+    "manufacturer_hcp_data_card": "HCP product data card"
+  },
+  "assessment": {
+    "title": "Clinical Nutrition Assessment",
+    "subtitle": "Capture patient demographics, labs and diagnoses — get an in-browser GLIM diagnosis, NRS2002 risk interpretation, energy/protein targets and PES nutritional diagnosis.",
+    "load_sample": "Load sample patient",
+    "reset": "Reset form",
+    "generate": "Generate report",
+    "copy_json": "Copy patient JSON",
+    "copy_report": "Copy report",
+    "section_basic": "Demographics",
+    "section_history": "History",
+    "section_diet": "Dietary intake",
+    "section_labs": "Lab results",
+    "section_risk": "Nutritional risk screening",
+    "section_dx": "Diagnoses",
+    "report_title": "Assessment Report",
+    "labs_hint": "Only the labs relevant to nutrition assessment are needed (Albumin, Prealbumin, CRP, Lymphocytes, Hemoglobin).",
+    "nrs_hint": "Score ≥ 3 flags nutritional risk requiring intervention.",
+    "add_dx": "Add diagnosis",
+    "has": "Yes",
+    "none": "No",
+    "f": {
+      "name": "Name",
+      "gender": "Sex",
+      "age": "Age (years)",
+      "height": "Height (cm)",
+      "weight": "Current weight (kg)",
+      "usual_weight": "Usual weight (kg)",
+      "weight_loss_duration": "Weight-loss duration (months)",
+      "chief_complaint": "Chief complaint",
+      "present_illness": "Present illness",
+      "past_history": "Past history",
+      "intake_pct": "Recent intake (% of needs)",
+      "restrictions": "Dietary restrictions",
+      "swallowing": "Swallowing difficulty",
+      "nrs2002": "NRS2002 score (0–7)"
+    },
+    "ph": {
+      "restrictions": "e.g. low-salt, diabetic diet",
+      "diagnosis": "e.g. post-op gastric cancer, T2DM"
+    },
+    "r": {
+      "weight_loss": "Weight loss",
+      "stress": "Stress level",
+      "at_risk": "At nutritional risk",
+      "no_risk": "No clear risk",
+      "glim_title": "GLIM Malnutrition Diagnosis",
+      "phenotype": "Phenotypic criteria",
+      "etiology": "Etiologic criteria",
+      "etiology_short": "Etiology",
+      "moderate_mal": "Moderate malnutrition",
+      "severe_mal": "Severe malnutrition",
+      "no_malnutrition": "Does not currently meet GLIM criteria (needs ≥1 phenotypic + ≥1 etiologic)",
+      "targets_title": "Nutritional targets",
+      "energy": "Energy target",
+      "protein": "Protein target",
+      "pes_title": "PES Diagnosis",
+      "problem": "Problem",
+      "signs": "Signs / evidence",
+      "labs_title": "Lab interpretation",
+      "actions_title": "Action plan"
+    },
+    "bmi": {
+      "normal": "Normal (18.5–24)",
+      "underweight": "Underweight (<18.5)",
+      "overweight": "Overweight (24–28)",
+      "obese": "Obese (≥28)",
+      "low_elder": "Low for elderly",
+      "low_elder_alert": "Borderline low (elderly)",
+      "glim_low_elder": "GLIM elder low BMI"
+    },
+    "glim": {
+      "weight_loss": "Weight loss",
+      "low_bmi": "Low BMI",
+      "reduced_intake": "Reduced intake",
+      "inflammation": "Disease-related inflammation"
+    },
+    "ai": {
+      "tier_label": "AI · Deep Interpretation",
+      "title": "Need a deeper clinical narrative?",
+      "subtitle": "Builds on the rule-based report — LLM generates a phased intervention plan, lab monitoring schedule, and patient communication script.",
+      "run": "Generate AI deep report",
+      "loading": "Generating…",
+      "thinking": "LLM is integrating patient data with clinical guidelines. This usually takes 10–25 seconds.",
+      "error_title": "AI service temporarily unavailable",
+      "error_hint": "The rule-based report above is unaffected and fully usable.",
+      "verify_hint": "Please complete the human verification before generating the AI report.",
+      "powered_by": "Powered by",
+      "disclaimer": "⚠️ AI interpretation is generated by a large language model and is for clinical reference only. Final plans must be confirmed by the attending physician / registered dietitian."
+    },
+    "about": {
+      "title": "About the clinical nutrition assessment",
+      "intro": [
+        "This page runs a structured nutritional assessment using deterministic clinical rules: body mass index (BMI), malnutrition judgment based on GLIM 2018, NRS-2002 nutritional risk screening, plus energy and protein target estimates and interpretation of common lab values — with an optional AI deep-dive report.",
+        "It is aimed at clinical-nutrition learning and work. All rule-based calculations run locally in your browser; this is an educational and supportive tool, not a replacement for a doctor's diagnosis."
+      ],
+      "basis_title": "Assessment basis",
+      "basis": [
+        "GLIM 2018: at least 1 phenotypic criterion plus at least 1 etiologic criterion.",
+        "NRS-2002 (Kondrup 2003): a score of 3 or more indicates nutritional risk.",
+        "ESPEN: energy about 25-35 kcal/kg/d, protein about 1.0-2.0 g/kg/d (by stress level).",
+        "Disease-specific adjustments per guidelines (e.g., low protein for non-dialysis chronic kidney disease)."
+      ],
+      "use_title": "How to use it",
+      "use": [
+        "Enter assessment data such as height, weight, diagnosis and labs (use a pseudonym; don't enter real identifiable information).",
+        "View the rule-based assessment results and nutritional targets generated automatically.",
+        "If needed, generate the AI deep-dive as a supplementary reference."
+      ],
+      "faq_title": "FAQ",
+      "faq": [
+        {
+          "q": "Can it replace a doctor?",
+          "a": "No. The results are rule-based outputs from public guidelines, for education and support; final diagnosis and treatment must be decided by the attending physician."
+        },
+        {
+          "q": "Is the data I enter safe?",
+          "a": "Assessment data stays in your browser and is not stored on the server. When you generate the AI interpretation, the entered content is relayed via the server to a third-party LLM, so don't enter real patient-identifiable information."
+        },
+        {
+          "q": "What is the AI deep-dive?",
+          "a": "It's an explanatory supplement to the rule-based results; it can only interpret, not modify, those numbers, and likewise is not a basis for diagnosis or treatment."
+        }
+      ],
+      "note": "This page is for nutritional education and supportive reference only; it is not a diagnosis or prescription. Make decisions under the guidance of an attending physician or registered dietitian."
+    }
+  },
+  "admin": {
+    "title": "Admin settings",
+    "hint": "Once saved, every AI Deep Interpretation request carries your admin token and routes through the chosen model. Regular users never see this panel.",
+    "token": "Admin token",
+    "provider": "AI model",
+    "provider_default": "Use backend default"
+  },
+  "about": {
+    "title": "About NutriCalc",
+    "intro": "NutriCalc is an independent, free, open-source evidence-based nutrition site focused on clinical nutrition and everyday balanced eating, with a bilingual interface and a dedicated module for Foods for Special Medical Purposes (FSMP).",
+    "mission_title": "What we are",
+    "mission": "We aim to turn nutrition knowledge scattered across guidelines, textbooks and official sources into tools and plain-language articles that ordinary people and frontline workers can use. All calculation logic and articles are grounded in public, authoritative sources, with the goal of being understandable, verifiable and actionable — not a replacement for the individualized judgment of a physician or registered dietitian. This project sells no food or supplements, accepts no sponsored content, and has no commercial ties to the brands it lists.",
+    "principles_title": "Editorial principles",
+    "principles": [
+      "Evidence first: each recommendation maps to a guideline, official standard or public reference value where possible; no wellness fads or alternative-medicine content.",
+      "No brand recommendations: for medical foods we describe categories and use cases only, never specific products.",
+      "Flag uncertainty: where individualized judgment is needed, we explicitly say \"to be confirmed by the attending physician or a registered dietitian\".",
+      "Education, not diagnosis: content is for health education and does not constitute diagnosis or a prescription.",
+      "Privacy: assessment data is processed only in your browser; pages with patient data load no ads or third-party tracking.",
+      "Transparency: the project is open source, so its logic and data can be inspected and checked."
+    ],
+    "sources_title": "Sources & standards",
+    "sources_intro": "Our calculation logic and articles draw mainly on the following authoritative sources:",
+    "sources": [
+      "GLIM 2018 consensus on malnutrition diagnosis",
+      "NRS-2002 nutritional risk screening (Kondrup 2003)",
+      "ESPEN guidelines on enteral and parenteral nutrition",
+      "Dietary Guidelines for Chinese Residents (2022), Chinese Nutrition Society",
+      "China NHC Dietary Guidelines (2023) for specific conditions (diabetes, dyslipidemia, etc.)",
+      "Chinese Dietary Reference Intakes (DRIs)",
+      "World Health Organization (WHO) healthy-diet recommendations"
+    ],
+    "tools_title": "Main tools",
+    "tools_intro": "The site is built around being accurate, understandable and practical:",
+    "tools": [
+      "Nutrition calculator: pick common foods and medical foods to auto-sum energy, protein, fat and carbs against DRI reference values.",
+      "Clinical assessment: deterministic rules based on BMI, GLIM and NRS-2002 give nutritional risk and energy/protein targets, plus an optional AI deep-dive.",
+      "Daily needs: estimate BMR/TDEE and DRI targets from height, weight, age and activity level.",
+      "FSMP library: browse category-level information on medical foods by condition, compiled from public labels and manufacturer instructions.",
+      "Nutrition tips: evidence-based articles covering disease-specific diets, special populations, nutrients and food safety."
+    ],
+    "data_title": "Data sources",
+    "data_intro": "Our data falls into two distinct types, each labeled accordingly:",
+    "data": [
+      "Regular foods: common per-100g reference values for estimation, not specific product labels.",
+      "Medical foods (FSMP): compiled from manufacturer labels, instructions and public registration records; each entry notes its source, registration number and regulatory category — verify before clinical use.",
+      "DRI values: from public standards such as the Chinese Dietary Reference Intakes."
+    ],
+    "review_title": "Updates & corrections",
+    "review": "Nutrition guidelines and food-safety rules change, and we keep reviewing and revising our content accordingly. If you spot an error, outdated information or a missing source, please email us using the address below — we will verify and correct it as soon as possible.",
+    "privacy_title": "Privacy",
+    "privacy": "The site requires no registration, and assessment data stays in your browser. See our",
+    "privacy_link": "Privacy Policy",
+    "contact_title": "Contact",
+    "contact": "For questions about content, corrections or collaboration, email us at:",
+    "disclaimer_title": "Disclaimer",
+    "disclaimer": "Content on this site is for health education and reference only. It does not constitute medical advice and cannot replace professional diagnosis, treatment or the individualized guidance of a registered dietitian. For any illness or special nutritional need, make decisions under the guidance of a physician or registered dietitian. The AI deep-dive is explanatory content based on rule-based results and must not be used as a basis for diagnosis or treatment."
+  },
+  "food_categories": {
+    "staple": "Staples",
+    "protein": "Protein",
+    "dairy": "Dairy",
+    "fruit": "Fruit",
+    "vegetable": "Vegetable",
+    "nut": "Nuts",
+    "oil": "Oils",
+    "beverage": "Beverage"
+  },
+  "nutrients": {
+    "calories": "Energy (kcal)",
+    "protein": "Protein (g)",
+    "fat": "Fat (g)",
+    "carbs": "Carbs (g)",
+    "fiber": "Fiber (g)",
+    "sugar": "Sugar (g)",
+    "sodium": "Sodium (mg)",
+    "potassium": "Potassium (mg)",
+    "calcium": "Calcium (mg)"
+  },
+  "articles": {
+    "list_title": "Nutrition Tips",
+    "list_subtitle": "GLIM, FSMP, clinical nutrition essentials — practical tips, updated regularly.",
+    "no_articles": "No tips yet.",
+    "not_found": "Not found.",
+    "back_to_list": "Back to tips",
+    "read_more": "Read more",
+    "translation_unavailable": "English version not available yet; showing the original Chinese."
+  },
+  "featured_articles": {
+    "title": "Featured Tips",
+    "see_all": "See all"
+  },
+  "support": {
+    "title": "Found it useful? Buy me a coffee ☕️",
+    "subtitle": "This site is free and needs no sign-up. If it helped you, a small tip helps cover server and AI API costs.",
+    "footer_lead": "Like this tool?",
+    "bmc": "Buy Me a Coffee",
+    "afdian": "Support on Afdian",
+    "qr": "WeChat / Alipay",
+    "qr_title": "Scan to support (WeChat / Alipay)",
+    "wechat": "WeChat Pay",
+    "alipay": "Alipay"
+  },
+  "seo": {
+    "calculator": {
+      "title": "Nutrition Calculator",
+      "desc": "Pick common foods and medical foods (FSMP) to auto-sum energy, protein, fat and carbs against DRI reference values. Bilingual, no sign-up."
+    },
+    "assessment": {
+      "title": "Clinical Nutrition Assessment",
+      "desc": "GLIM 2018 malnutrition diagnosis, NRS-2002 risk screening, energy and protein targets, plus optional AI deep interpretation. For educational use only."
+    },
+    "daily": {
+      "title": "Daily Nutrient Needs",
+      "desc": "Estimate BMR and TDEE from height, weight, age and activity level, with DRI nutrient targets."
+    },
+    "fsmp": {
+      "title": "FSMP Library",
+      "desc": "Browse foods for special medical purposes by disease. Data compiled from public labels and manufacturer instructions — verify before clinical use."
+    },
+    "about": {
+      "title": "About",
+      "desc": "About the NutriCalc nutrition calculator and FSMP library."
+    },
+    "articles": {
+      "title": "Nutrition Tips",
+      "desc": "Evidence-based clinical nutrition articles: malnutrition diagnosis (GLIM), choosing medical foods (FSMP), and more."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "desc": "How NutriCalc handles your data: local storage, third-party LLMs, ads and cookies."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "desc": "Terms for using the NutriCalc nutrition calculator."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "desc": "NutriCalc content is for education and reference only, not medical advice."
+    },
+    "contact": {
+      "title": "Contact",
+      "desc": "Get in touch with the NutriCalc team."
+    }
+  },
+  "footer_links": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "disclaimer": "Disclaimer",
+    "contact": "Contact"
+  },
+  "cookie": {
+    "message": "This site uses no tracking cookies. We only store your language preference and tool data in your browser's localStorage (stays on your device), and use Cloudflare's cookieless analytics.",
+    "learn_more": "View Privacy Policy",
+    "accept": "OK, got it",
+    "message_ads": "Content pages on this site (articles / about / home) may show Google AdSense ads and use cookies for that purpose. Your tool data stays in your browser; pages containing patient data carry no ads. See our Privacy Policy."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: June 2, 2026",
+    "intro": "NutriCalc (\"we\") respects your privacy. This policy explains how we handle information when you use this site.",
+    "sections": [
+      {
+        "h": "1. We do not collect account information",
+        "p": "This site requires no registration or login, and does not collect your email, phone number, name, or other account information."
+      },
+      {
+        "h": "2. Browser local storage",
+        "p": "To make the tool usable, your browser stores the following information — this data stays on your device and is never uploaded to our servers:",
+        "ul": [
+          "Language preference",
+          "Items selected in the calculator (foods / medical foods)",
+          "Draft of the assessment form",
+          "Admin token (only when you actively enable admin mode)"
+        ],
+        "after": "You can remove all of this at any time via your browser's \"Clear site data\"."
+      },
+      {
+        "h": "3. AI Deep Interpretation feature",
+        "p": "When you actively click \"Generate AI deep report\", the data you have entered in the assessment form is relayed via our server to one of the following LLM APIs:",
+        "ul": [
+          "DeepSeek (current default)",
+          "MiniMax",
+          "GLM / ZhipuAI"
+        ],
+        "after": "Our server does not store this data — it is forwarded and discarded. Third-party LLM providers have their own privacy policies. Do not enter real patient-identifying information (name, ID number, medical record number, etc.); use aliases or pseudonyms."
+      },
+      {
+        "h": "4. Human verification and abuse prevention",
+        "p": "We use Cloudflare Turnstile to verify you are not a bot; Turnstile may collect browser signals — see Cloudflare's privacy policy. Our server keeps a per-IP counter of AI requests per day for rate-limiting; the counter is automatically cleared after 24 hours."
+      },
+      {
+        "h": "5. Analytics",
+        "p": "This site uses Cloudflare Web Analytics — a cookieless analytics service that does not identify individuals. It aggregates visits, pages, referrers, and browser types only."
+      },
+      {
+        "h": "6. Cookies and tracking",
+        "p": "This site sets no tracking cookies of its own. When content pages (articles, about, home) display Google AdSense ads, Google and its partners may use cookies or similar technologies to serve and measure ads; you can manage personalized ads in Google Ads Settings, and users in the EEA / UK / Switzerland are shown Google's consent message first. The assessment, daily-needs, and FSMP-library pages load no ads or third-party tracking scripts. All other tool data is stored only in your browser's localStorage as described in section 2."
+      },
+      {
+        "h": "7. Your rights",
+        "p": "Since we do not store identifiable data about you, no \"deletion request\" is required. You can clear your browser localStorage at any time to remove local data. For questions, email contact@125261.xyz."
+      },
+      {
+        "h": "8. Policy changes",
+        "p": "This policy may be updated occasionally; the \"Last updated\" date at the top of this page reflects the latest change."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: June 2, 2026",
+    "intro": "By accessing or using this site, you agree to the following terms. If you do not agree, please stop using the site immediately.",
+    "sections": [
+      {
+        "h": "1. Nature of the Site",
+        "p": "This site is an educational and demonstrational nutrition tool, including clinical nutrition assessment, daily-needs estimation, and a browser for foods for special medical purposes (FSMP). It does not provide medical services and does not constitute diagnosis or prescription."
+      },
+      {
+        "h": "2. Not Medical Advice",
+        "p": "See the Disclaimer page for details. All calculations and AI interpretations are for reference only; clinical decisions must be made by a registered dietitian or attending physician."
+      },
+      {
+        "h": "3. Intellectual Property",
+        "p": "The source code of this site is released under the MIT license. FSMP library entries are transcribed from public product labels, manufacturer instructions, or official HCP data cards; formulas may change, so use the current package and official materials as the authority."
+      },
+      {
+        "h": "4. Prohibited Conduct",
+        "p": "You may not:",
+        "ul": [
+          "Use automated scripts to call the site's AI endpoints at scale",
+          "Attempt to bypass human verification, rate limiting, or admin authentication",
+          "Use the site in violation of applicable laws in your jurisdiction",
+          "Use the site's output for real clinical decisions without review by a qualified professional"
+        ]
+      },
+      {
+        "h": "5. Availability",
+        "p": "The site is provided free of charge, \"as is\". We make no warranty of availability, accuracy, or fitness for any particular purpose, and may modify or terminate the service at any time without notice."
+      },
+      {
+        "h": "6. Limitation of Liability",
+        "p": "To the maximum extent permitted by law, we are not liable for any direct, indirect, special, incidental, or punitive damages arising from your use or inability to use the site."
+      },
+      {
+        "h": "7. Contact",
+        "p": "For questions about these terms, please use the Contact page."
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": "Medical Disclaimer",
+    "last_updated": "Last updated: June 2, 2026",
+    "intro": "NutriCalc is not a medical device and does not replace professional medical advice. Please understand the following before relying on any calculation or AI output.",
+    "sections": [
+      {
+        "h": "1. Not a medical device",
+        "p": "This tool is intended for nutrition education and calculation demonstration. It is not a medical device under any applicable regulation and does not substitute for professional medical advice, diagnosis, or treatment."
+      },
+      {
+        "h": "2. Calculations are for reference only",
+        "p": "Clinical calculations on this site (GLIM malnutrition diagnosis, NRS-2002 risk screening, energy and protein targets, etc.) implement published clinical guidelines, but the outputs are reference values only and do not represent clinical judgment for any specific patient."
+      },
+      {
+        "h": "3. AI interpretation is LLM-generated",
+        "p": "The \"AI Deep Interpretation\" is produced by a third-party large language model. It can hallucinate, be outdated, or be wrong. It does not constitute a prescription, medical order, or medical advice."
+      },
+      {
+        "h": "4. Data authenticity",
+        "p": "The FSMP library includes product data transcribed from public labels or manufacturer instructions, but formulas, registration status, and package sizes may change. Food nutrient values are common reference figures and may differ from actual product labels."
+      },
+      {
+        "h": "5. Do not enter identifiable patient data",
+        "p": "Do not enter real patient names, ID numbers, medical record numbers, or any other identifying information into the assessment form. Use aliases or pseudonyms. See the Privacy Policy for details."
+      },
+      {
+        "h": "6. Seek medical care for emergencies",
+        "p": "If you are experiencing any of the following, seek medical care immediately rather than rely on this tool:",
+        "ul": [
+          "Severe malnutrition or significant weight loss",
+          "Acute symptoms (uncontrolled vomiting, altered consciousness, breathing difficulty, etc.)",
+          "Adjustment of a treatment plan for a chronic disease"
+        ]
+      },
+      {
+        "h": "7. No liability",
+        "p": "We are not liable for any consequences arising from your use of this site or the information it contains. Clinical decisions must be made by qualified medical professionals based on the full clinical picture."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "intro": "If you have questions, suggestions, or feedback about NutriCalc, please reach out via the following channels.",
+    "sections": [
+      {
+        "h": "Email",
+        "p": "contact@125261.xyz"
+      },
+      {
+        "h": "Response time",
+        "p": "We aim to reply within a reasonable time, but this is a free service and we make no customer-support commitment."
+      },
+      {
+        "h": "This mailbox is not for medical consultation",
+        "p": "This mailbox does not answer specific questions about personal health, medication, or nutrition plans. For clinical questions, please consult your registered dietitian or attending physician. See the Disclaimer page."
+      },
+      {
+        "h": "Privacy questions",
+        "p": "For questions about data handling, see the Privacy Policy."
+      }
+    ]
+  }
+}
