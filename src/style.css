@@ -736,6 +736,19 @@ textarea { resize: vertical; }
   font-size: 12.5px;
   margin: 8px 0 0;
 }
+.article-byline {
+  font-size: 12.5px;
+  margin: 8px 0 0;
+}
+.article-byline a { color: var(--c-fg-mid); }
+.article-byline a:hover { color: var(--c-primary); }
+/* 预渲染静态页的文章列表（JS 接管前的首屏 / 爬虫视图） */
+.article-static-list {
+  list-style: none;
+  padding: 0;
+}
+.article-static-list li { margin-bottom: 14px; }
+.article-static-list p { margin: 2px 0 0; font-size: 13.5px; }
 .article-content {
   margin-top: 28px;
 }

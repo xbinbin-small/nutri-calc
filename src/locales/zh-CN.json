@@ -453,7 +453,9 @@
     "not_found": "找不到这篇内容",
     "back_to_list": "返回列表",
     "read_more": "阅读全文",
-    "translation_unavailable": "本篇暂无该语言版本，显示中文原文。"
+    "translation_unavailable": "本篇暂无该语言版本，显示中文原文。",
+    "byline_author": "作者：NutriCalc 编辑部 · 依据公开指南与官方资料整理",
+    "byline_about": "了解我们的编审原则"
   },
   "featured_articles": {
     "title": "精选小贴士",

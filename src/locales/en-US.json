@@ -453,7 +453,9 @@
     "not_found": "Not found.",
     "back_to_list": "Back to tips",
     "read_more": "Read more",
-    "translation_unavailable": "English version not available yet; showing the original Chinese."
+    "translation_unavailable": "English version not available yet; showing the original Chinese.",
+    "byline_author": "By the NutriCalc editorial team · compiled from public guidelines and official sources",
+    "byline_about": "About our editorial principles"
   },
   "featured_articles": {
     "title": "Featured Tips",

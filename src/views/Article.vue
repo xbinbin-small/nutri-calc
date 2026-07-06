@@ -38,6 +38,10 @@ onUnmounted(() => { document.title = 'NutriCalc · 营养素计算器' })
         <span class="article-date">{{ article.date }}</span>
         <span v-for="tag in article.tags" :key="tag" class="article-tag">{{ tag }}</span>
       </div>
+      <p class="article-byline muted">
+        {{ t('articles.byline_author') }} ·
+        <router-link to="/about">{{ t('articles.byline_about') }}</router-link>
+      </p>
       <p v-if="article.fallbackUsed" class="article-fallback muted">
         ⚠️ {{ t('articles.translation_unavailable') }}
       </p>
