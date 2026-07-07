@@ -1,1 +1,7 @@
+# Google Search Console 文件验证：Pages 会把 *.html 308 到无后缀 URL，
+# 而 Google 要求精确 URL 直接 200——故用 200 重写映射到 .txt 内容（内容须与令牌文件完全一致）
+/google4dbd2dd2a7bf3a8f.html            /gsc-verify.txt   200
+/articles/google4dbd2dd2a7bf3a8f.html   /gsc-verify.txt   200
+
+# SPA 回退
 /*    /index.html   200
