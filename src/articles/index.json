@@ -1,5 +1,17 @@
 [
   {
+    "slug": "aplastic-anemia",
+    "date": "2026-07-08",
+    "tags": [
+      "disease-diet",
+      "clinical"
+    ],
+    "title_zh": "揭开“造血罢工”的真相：带你了解再生障碍性贫血",
+    "title_en": "When the Blood Factory Goes on Strike: Understanding Aplastic Anemia",
+    "summary_zh": "再生障碍性贫血是骨髓造血衰竭导致的全血细胞减少，不是普通缺铁性贫血。讲清它的成因、三系减少的信号、诊断与治疗思路，以及低免疫、易出血人群的饮食护理要点。",
+    "summary_en": "Aplastic anemia is pancytopenia from bone-marrow failure, not ordinary iron-deficiency anemia. Its causes, the three-lineage warning signs, how it is diagnosed and treated, and dietary care for people with low immunity and a bleeding tendency."
+  },
+  {
     "slug": "vibrio-parahaemolyticus",
     "date": "2026-06-25",
     "tags": [
