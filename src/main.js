@@ -7,17 +7,20 @@ import zhCN from './locales/zh-CN.json'
 import enUS from './locales/en-US.json'
 import './style.css'
 
+// 首页保持同步加载（最常访问，避免额外一次往返）；
+// 其余视图按路由懒加载——首屏 JS 不再背上评估页（720 行）与全部文章正文。
 import Calculator from './views/Calculator.vue'
-import Assessment from './views/Assessment.vue'
-import DailyNeeds from './views/DailyNeeds.vue'
-import FsmpLibrary from './views/FsmpLibrary.vue'
-import About from './views/About.vue'
-import Privacy from './views/Privacy.vue'
-import Terms from './views/Terms.vue'
-import Disclaimer from './views/Disclaimer.vue'
-import Contact from './views/Contact.vue'
-import Articles from './views/Articles.vue'
-import Article from './views/Article.vue'
+const Assessment  = () => import('./views/Assessment.vue')
+const DailyNeeds  = () => import('./views/DailyNeeds.vue')
+const FsmpLibrary = () => import('./views/FsmpLibrary.vue')
+const About       = () => import('./views/About.vue')
+const Privacy     = () => import('./views/Privacy.vue')
+const Terms       = () => import('./views/Terms.vue')
+const Disclaimer  = () => import('./views/Disclaimer.vue')
+const Contact     = () => import('./views/Contact.vue')
+const Articles    = () => import('./views/Articles.vue')
+const Article     = () => import('./views/Article.vue')
+const NotFound    = () => import('./views/NotFound.vue')
 
 // 老链接兼容：从 hash 模式迁移到 history 模式后，把被收录/分享的旧网址
 // （形如 /#/articles/glim-intro）一次性重写成无 # 的真实路径，避免落到首页。
@@ -52,7 +55,8 @@ const router = createRouter({
     { path: '/terms',      name: 'terms',      component: Terms },
     { path: '/disclaimer', name: 'disclaimer', component: Disclaimer },
     { path: '/contact',    name: 'contact',    component: Contact },
-    { path: '/:catchAll(.*)', redirect: '/' }
+    // 真 404 视图（不再静默跳首页——那会产生 soft-404，伤 SEO）
+    { path: '/:catchAll(.*)', name: 'notfound', component: NotFound }
   ],
   scrollBehavior() { return { top: 0 } }
 })

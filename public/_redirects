@@ -3,5 +3,7 @@
 /google4dbd2dd2a7bf3a8f.html            /gsc-verify.txt   200
 /articles/google4dbd2dd2a7bf3a8f.html   /gsc-verify.txt   200
 
-# SPA 回退
-/*    /index.html   200
+# 不再配置 `/* /index.html 200` 全局回退：所有真实路由都在构建期预渲染成
+# 静态文件（scripts/prerender.mjs），未知路径由 Cloudflare Pages 原生以
+# 404 状态返回 404.html（真 404，避免 soft-404 伤 SEO）。
+# 404.html 内含应用脚本，Vue 仍会挂载并渲染 NotFound 视图。

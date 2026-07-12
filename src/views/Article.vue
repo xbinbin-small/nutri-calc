@@ -2,7 +2,7 @@
 import { computed, watch, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useArticle } from '../composables/useArticles.js'
+import { useArticle } from '../composables/useArticleContent.js'
 import { renderMarkdown } from '../composables/useAiAssessment.js'
 import { setSeo } from '../composables/useSeo.js'
 import AdSlot from '../components/AdSlot.vue'

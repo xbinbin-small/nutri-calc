@@ -22,7 +22,12 @@
       "Bash(cp /Users/bricony/Downloads/google4dbd2dd2a7bf3a8f.html public/)",
       "Bash(cp /Users/bricony/Downloads/google4dbd2dd2a7bf3a8f.html public/articles/)",
       "Bash(curl -sI https://nutri.125261.xyz/google4dbd2dd2a7bf3a8f.html)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(npm outdated *)",
+      "Bash(npm audit *)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(curl -sI https://nutri.125261.xyz/)",
+      "Bash(curl -s -X POST https://nutri.125261.xyz/api/ai-assessment -H 'Content-Type: application/json' -d '{\"patient\":{\"x\":1},\"calculated\":{\"y\":1},\"locale\":\"zh-CN\"}' -w '\\\\n[HTTP %{http_code}]\\\\n')"
     ]
   }
 }

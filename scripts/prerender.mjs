@@ -319,4 +319,20 @@ for (const [ns, path] of [['privacy', '/privacy'], ['terms', '/terms'], ['discla
   }))
 }
 
-console.log(`[prerender] 完成：${articles.length} 篇文章 + 10 个静态页 → dist/**/*.html`)
+/* ---------- 6) 404 页 ---------- */
+// Cloudflare Pages 对未匹配路径原生返回 404.html + 404 状态（_redirects 已不设全局回退）。
+// 去掉 canonical、加 noindex：404 页不该被收录。
+{
+  const nf = zh.notfound
+  const body =
+    `<section class="card" style="max-width:560px;margin:48px auto;text-align:center;padding:40px 24px">` +
+    `<h1>${esc(nf.title)}</h1><p class="muted">${esc(nf.desc)}</p>` +
+    `<p><a href="/">${esc(nf.home)}</a> · <a href="/articles">${esc(nf.articles)}</a></p></section>`
+  let html = renderPage({ path: '/404', title: zh.seo.notfound.title, description: zh.seo.notfound.desc, body })
+  html = html
+    .replace(/<link rel="canonical"[^>]*\/?>\s*\n?/, '')
+    .replace('</head>', `    <meta name="robots" content="noindex" />\n  </head>`)
+  writeFileSync(resolve(dist, '404.html'), html, 'utf8')
+}
+
+console.log(`[prerender] 完成：${articles.length} 篇文章 + 10 个静态页 + 404 → dist/**/*.html`)

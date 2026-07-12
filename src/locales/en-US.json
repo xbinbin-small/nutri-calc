@@ -512,6 +512,10 @@
     "contact": {
       "title": "Contact",
       "desc": "Get in touch with the NutriCalc team."
+    },
+    "notfound": {
+      "title": "Page Not Found",
+      "desc": "The page you visited does not exist."
     }
   },
   "footer_links": {
@@ -680,5 +684,11 @@
         "p": "For questions about data handling, see the Privacy Policy."
       }
     ]
+  },
+  "notfound": {
+    "title": "Page Not Found",
+    "desc": "The address you visited does not exist or has been moved.",
+    "home": "Back to Home",
+    "articles": "Browse Nutrition Tips"
   }
 }

@@ -16,24 +16,11 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import index from '../articles/index.json'
 
-// Vite glob: 把所有 markdown 内容作为字符串引入打包
-const contentModules = import.meta.glob('../articles/**/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true
-})
+// 注意：本文件只依赖 index.json（元数据），刻意不 import 文章正文。
+// 正文的 Vite glob 在 useArticleContent.js —— 它只被文章详情路由（懒加载）引用，
+// 这样首页/列表页的 chunk 不会背上全部 markdown（~260KB）。别把 glob 挪回来。
 
-// 构建查表：{ slug: { 'zh-CN': '...', 'en-US': '...' } }
-const contentMap = {}
-for (const path in contentModules) {
-  const m = path.match(/\/articles\/([^/]+)\/([a-z]{2}-[A-Z]{2})\.md$/)
-  if (!m) continue
-  const [, slug, locale] = m
-  if (!contentMap[slug]) contentMap[slug] = {}
-  contentMap[slug][locale] = contentModules[path]
-}
-
-function localized(meta, locale) {
+export function localized(meta, locale) {
   const lang = locale === 'en-US' ? 'en' : 'zh'
   return {
     title:   meta[`title_${lang}`]   || meta.title_zh,
@@ -60,26 +47,4 @@ export function useArticleIndex() {
 export function useFeaturedArticles(limit = 3) {
   const list = useArticleIndex()
   return computed(() => list.value.slice(0, limit))
-}
-
-/** 单篇文章 + 正文内容。 */
-export function useArticle(slug) {
-  const { locale } = useI18n()
-  return computed(() => {
-    const meta = index.find((a) => a.slug === slug)
-    if (!meta) return null
-    const localeKey = locale.value
-    const fallback  = 'zh-CN'
-    const map = contentMap[slug] || {}
-    const content = map[localeKey] || map[fallback] || ''
-    return {
-      slug,
-      date: meta.date,
-      tags: meta.tags || [],
-      ...localized(meta, localeKey),
-      content,
-      hasCurrentLocale: !!map[localeKey],
-      fallbackUsed: !map[localeKey] && !!map[fallback]
-    }
-  })
 }
